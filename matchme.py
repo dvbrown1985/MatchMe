@@ -153,7 +153,7 @@ with st.form("my_form"):
             - Here is the job posting text to review: {cleaned_job_description}
             - Here is the job seeker's experience to review: {job_seeker_experience}
 
-            ** Example Output **: Please do not add any additional narrative or context other than the structure listed below. Output format must be in markdown. Make sure section titles are formatted in BOLD. Use Line Breaks before AND after each title. Do not include any HTML code or tags in your output.
+            ** Example Output **: Do not add additional narrative or context other than the structure listed below. Output format must be in markdown. Make sure section titles are formatted in BOLD. Use Line Breaks before AND after each title. Do not output any HTML code or tags such as <br>.
 
             1. Overall match assessment: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented. 
             - **Strong Match** List the reasons why the job seeker's experience is a strong match to the job posting. Or,
