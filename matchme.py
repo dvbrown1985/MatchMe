@@ -75,6 +75,9 @@ with container_1:
     """, unsafe_allow_html=True)
 
 with st.form("my_form"):
+
+    st.info('For best results, please input job postings directly from career sites. Job postings from aggregators liked Indeed or LinkedIn may be blocked.', icon="ℹ️")
+    
     job_posting_url = st.text_input("Please Input the Job Posting URL")
 
     # Define 'label' before using it
