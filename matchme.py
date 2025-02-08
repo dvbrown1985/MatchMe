@@ -153,28 +153,28 @@ with st.form("my_form"):
             - Here is the job posting text to review: {cleaned_job_description}
             - Here is the job seeker's experience to review: {job_seeker_experience}
 
-            ** Example Output **: Do not add additional narrative or context other than the structure listed below. Output format must be in markdown. Make sure section titles are formatted in BOLD. Use Line Breaks before AND after each title. Do not output any HTML code or tags such as <br>.
-
-            1. Overall match assessment: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented. 
-            - **Strong Match** List the reasons why the job seeker's experience is a strong match to the job posting. Or,
-            - **Partial Match** List the reasons why the job seeker's experience is a partial match to the job posting. Or,
-            - **Weak Match** List the reasons why the job seeker's experience is a weak match to the job posting.
-            2. Relevant Experience: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - List the relevant job seekers experience and explain how and why it matches the requirements of the job postings.
-            3. Experience Gaps: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - List any experience requirements not present in the job seeker's provided experience. Provide an explanation as to why this required experience is important to the role. 
-            3. Skills Assessment: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - List the relevant job seeker skills that are most applicable to this role and how they can be applied to the role. 
-            4. Skill Gap Analysis: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - List any missing skills not listed in the job seeker experience that are required in the job posting. Provide a concise recommendation on how to develop the skill.     
-            5. Creating a Tailored Resume: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - Provide 5 to 7 recommendations to the job seeker for creating a tailored resume for the job posting that highlights their strengths and qualifications. 
-            6. Creating a Cover Letter: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - Provide 5 to 7 recommendations to the job seeker for creating a tailored cover letter for the job posting that highlights their strengths and qualifications. 
-            7. Interview Questions for the Employer: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - Provide 5 to 7 recommended interview questions for the job seeker to ask of the hiring team.
-            8. Interview Questions to Prepare the Job Seeker: Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.
-                - Provide 5 to 7 questions for the job seeker to reflect upon in order to prepare them for a discussion with the hiring team.
+            ** Example Output **: Do not add additional narrative or context other than the structure listed below. Output format must be in markdown. Use Line Breaks before AND after each title. Do not output any HTML code or tags such as <br>.
+    
+                1. Overall match assessment: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented. 
+                    - **Strong Match** List the reasons why the job seeker's experience is a strong match to the job posting. Or,
+                    - **Partial Match** List the reasons why the job seeker's experience is a partial match to the job posting. Or,
+                    - **Weak Match** List the reasons why the job seeker's experience is a weak match to the job posting.
+                2. Relevant Experience: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.Make sure the bullet points are indented.Make sure the bullet points are indented.
+                    - List the relevant job seekers experience and explain how and why it matches the requirements of the job postings.
+                3. Experience Gaps: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented. Make sure the bullet points are indented.
+                    - List any experience requirements not present in the job seeker's provided experience. Provide an explanation as to why this required experience is important to the role. 
+                3. Skills Assessment: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
+                    - List the relevant job seeker skills that are most applicable to this role and how they can be applied to the role. 
+                4. Skill Gap Analysis: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
+                    - List any missing skills not listed in the job seeker experience that are required in the job posting. Provide a concise recommendation on how to develop the skill.     
+                5. Creating a Tailored Resume: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
+                    - Provide 5 to 7 recommendations to the job seeker for creating a tailored resume for the job posting that highlights their strengths and qualifications. 
+                6. Creating a Cover Letter: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
+                    - Provide 5 to 7 recommendations to the job seeker for creating a tailored cover letter for the job posting that highlights their strengths and qualifications. 
+                7. Interview Questions for the Employer: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
+                    - Provide 5 to 7 recommended interview questions for the job seeker to ask of the hiring team.
+                8. Interview Questions to Prepare the Job Seeker: Make this line Bold. Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
+                    - Provide 5 to 7 questions for the job seeker to reflect upon in order to prepare them for a discussion with the hiring team.
             """
 
         container_4 = st.container(border=True)
