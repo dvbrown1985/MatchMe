@@ -159,31 +159,31 @@ with st.form("my_form"):
                     - **Strong Match** List the reasons why the job seeker's experience is a strong match to the job posting. Or,
                     - **Partial Match** List the reasons why the job seeker's experience is a partial match to the job posting. Or,
                     - **Weak Match** List the reasons why the job seeker's experience is a weak match to the job posting.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 2. Relevant Experience: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output.Make sure the bullet points are indented.Make sure the bullet points are indented.
                     - List the relevant job seekers experience and explain how and why it matches the requirements of the job postings.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 3. Experience Gaps: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented. Make sure the bullet points are indented.
                     - List any experience requirements not present in the job seeker's provided experience. Provide an explanation as to why this required experience is important to the role.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 3. Skills Assessment: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
                     - List the relevant job seeker skills that are most applicable to this role and how they can be applied to the role.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 4. Skill Gap Analysis: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
                     - List any missing skills not listed in the job seeker experience that are required in the job posting. Provide a concise recommendation on how to develop the skill.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 5. Creating a Tailored Resume: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
                     - Provide 5 to 7 recommendations to the job seeker for creating a tailored resume for the job posting that highlights their strengths and qualifications.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 6. Creating a Cover Letter: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
                     - Provide 5 to 7 recommendations to the job seeker for creating a tailored cover letter for the job posting that highlights their strengths and qualifications.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 7. Interview Questions for the Employer: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
                     - Provide 5 to 7 recommended interview questions for the job seeker to ask of the hiring team.
-                    <insert line break>
+                    <insert line break> do not output <br>
                 8. Interview Questions to Prepare the Job Seeker: Make this line Bold. Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented.
                     - Provide 5 to 7 questions for the job seeker to reflect upon in order to prepare them for a discussion with the hiring team.
-                    <insert line break>
+                    <insert line break> do not output <br>
             """
 
         container_4 = st.container(border=True)
