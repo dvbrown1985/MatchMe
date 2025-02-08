@@ -148,12 +148,12 @@ with st.form("my_form"):
             st.success('Job Posting Cleaned!', icon="🤖")
 
         analyze_experience_against_job_description = f"""
-            **Instructions:** You are a helpful assistant tasked with comparing a job seeker's experience against a job posting. You need to analyze the the provided job seeker experience to determine if the job seeker is a **Strong Match**, **Partial Match**, or **Weak Match**. 
+            **Instructions:** You are a helpful assistant tasked with comparing a job seeker's experience against a job posting. You need to analyze the the provided job seeker experience such as education, experience, and skills to determine if the job seeker is a **Strong Match**, **Partial Match**, or **Weak Match** against the job posting. 
             **Information for analysis:** 
             - Here is the job posting text to review: {cleaned_job_description}
             - Here is the job seeker's experience to review: {job_seeker_experience}
 
-            ** Example Output **: Do not add additional narrative or context other than the structure listed below. Output format must be in markdown. Do not output any HTML code or tags such as <br>.
+            ** Example Output **: Do not add additional narrative or context other than the structure listed below. Output format must be in markdown. Do not output any HTML code or tags such as <br>. You must include a line break before and after each category in the example output.
     
                 1. Overall match assessment: Make this line Bold. Use Line Breaks to make the content readable and intuitive. Use bullet points to segment the output. Make sure the bullet points are indented. 
                     - **Strong Match** List the reasons why the job seeker's experience is a strong match to the job posting. Or,
