@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 import requests
 import streamlit as st
 from PIL import Image
@@ -197,4 +191,3 @@ with st.form("my_form"):
         
         with st.chat_message("assistant"):
             st.markdown(match_assessment)
-
